@@ -1,4 +1,4 @@
-class Animal {
+public class Animal {
     private String name;
 
 //-----------Constructor--------
