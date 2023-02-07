@@ -27,6 +27,7 @@ public class Shape {
         this.filled = filled;
     }
 //----------ToString---------------
+    @Override
     public String toString(){
         return "Shape[color=" + this.color + ",filled=" + this.filled + "]";
     }
