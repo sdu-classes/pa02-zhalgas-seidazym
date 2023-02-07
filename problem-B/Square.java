@@ -17,15 +17,18 @@ public class Square extends Rectangle {
         super.setLength(side); 
         super.setWidth(side);
     }
+    @Override
     public void setWidth(double width){
         super.setWidth(width);
         super.setLength(width);
     }
+    @Override
     public void setLength(double length){
         super.setWidth(length);
         super.setLength(length);
     }
 //---------------ToString---------------
+    @Override
     public String toString(){
         return "Square[" + super.toString() + "]";
     }
