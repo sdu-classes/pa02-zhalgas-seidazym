@@ -29,6 +29,6 @@ public class Circle extends Shape {
 //-------ToString---------
     @Override
     public String toString(){
-        return "Circle[" + super.toString() + ",radius=" + this.getRadius() + "]";
+        return "Circle[" + super.toString() + ",radius=" + this.radius + "]";
     }
 }
