@@ -37,6 +37,6 @@ public class Rectangle extends Shape {
 //--------ToString---------------
     @Override
     public String toString(){
-        return "Rectangle[" + super.toString() + ",width=" + this.width + ",length=" + this.length + "]";
+        return "A Rectangle with width=" + this.width + " and length=" + this.length + ", which is a subclass of " + super.toString();
     }
 }
