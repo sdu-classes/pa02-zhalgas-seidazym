@@ -30,6 +30,6 @@ public class Square extends Rectangle {
 //---------------ToString---------------
     @Override
     public String toString(){
-        return "Square[" + super.toString() + "]";
+        return "A Square with side=" + this.getSide() + ", which is a subclass of " + super.toString();
     }
 }
