@@ -29,6 +29,9 @@ public class Shape {
 //----------ToString---------------
     @Override
     public String toString(){
-        return "Shape[color=" + this.color + ",filled=" + this.filled + "]";
+        if (this.filled == true){
+            return "A Shape with color of " + this.color + " and filled";
+        }
+        else return "A Shape with color of " + this.color + " and not filled";
     }
 }
